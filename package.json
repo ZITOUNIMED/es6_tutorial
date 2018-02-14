@@ -4,7 +4,7 @@
   "description": "formation sur es6/es2015",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --presets env src -d dist"
   },
   "repository": {
     "type": "git",
